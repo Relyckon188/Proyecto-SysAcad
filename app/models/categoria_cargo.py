@@ -2,6 +2,5 @@ from dataclasses import dataclass
 
 
 @dataclass(init=False, repr=True, eq=True)
-class TipoDedicacion:
+class CategoriaCargo:
     nombre: str
-    observacion: str

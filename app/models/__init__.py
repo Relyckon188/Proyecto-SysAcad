@@ -1,4 +1,5 @@
 from .facultad import Facultad
-from app.models import Autoridad
+from .autoridad import Autoridad
 from .cargo import Cargo
-from categoria_cargo
+from .categoria_cargo import CategoriaCargo
+from .tipo_dedicacion import TipoDedicacion
