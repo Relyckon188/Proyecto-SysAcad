@@ -35,7 +35,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\celes\Desktop\archivo UTN\DesarrolloSoftware\SysAcad\flask-sysacad\venv"
+VIRTUAL_ENV="C:\Users\celes\Desktop\archivo UTN\DesarrolloSoftware\ProyectoSysAcad\flask-sysacad\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

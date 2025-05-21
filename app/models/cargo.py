@@ -1,10 +1,9 @@
 from dataclasses import dataclass
-
-from app.models import CategoriaCargo,TipoDedicacion
-
+from app.models.categoriacargo import CategoriaCargo
+from app.models.tipodedicacion import TipoDedicacion
 
 @dataclass(init=False, repr=True, eq=True)
-class Cargo :
+class Cargo():
     nombre: str
     puntos: int
     categoria_cargo: CategoriaCargo
